@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0pc;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background-color: rgb(2, 2, 2);
+}
+
+main {
+    display: flex;
+    flex-flow: column wrap;
+
+    min-width: 375px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(16, 16, 16);
+    padding: 10px;
+}
