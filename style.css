@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 * {
     margin: 0px;
     padding: 0pc;
@@ -11,18 +13,66 @@ html {
 }
 
 body {
-    background-color: rgb(2, 2, 2);
+    background-color: rgb(8, 8, 8);
+    font-family: "Inter", sans-serif;;
+    color: white;
 }
 
 main {
     display: flex;
     flex-flow: column wrap;
+    align-items: center;
 
     min-width: 375px;
+    
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     background-color: rgb(16, 16, 16);
-    padding: 10px;
+    padding: 30px 0px;
+    border-radius: 10px;
 }
+
+img {
+    width: 150px;
+}
+
+div#photocontainer {
+    margin: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+main > h1 {
+    font-weight: 600;
+}
+
+main > h2 {
+    font-weight: 500;
+    color: #84cc16;
+    font-size: 1.1em;
+    margin: 10px 0px;
+}
+
+main > p {
+    margin: 20px 0px;
+    font-size: .8em;
+    font-weight: normal;
+}
+
+main > a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(40, 40, 40);;
+    padding: 14px;
+    margin: 6px;
+    width: 300px;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+main > a:hover {
+    background-color: #84cc16;
+} 
